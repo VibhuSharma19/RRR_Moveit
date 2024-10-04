@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: rrr_arm
+    relative_path: urdf/rrr_arm.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/rrr_arm.srdf
+  CONFIG:
+    author_name: v
+    author_email: v@gmail.com
+    generated_timestamp: 1727342868
