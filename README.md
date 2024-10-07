@@ -17,8 +17,6 @@ This is a secondary MoveIt support repository for the [RRR_Manipulator](https://
 </div>
 
 ## Table of Content
-* [RRR MoveIt](#rrr-moveit)
-  * [Table of Content](#table-of-content)
   * [Overview](#overview)
     * [Features](#features)
   * [Getting Stated](#getting-stated)
