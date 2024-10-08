@@ -7,7 +7,6 @@ This is a secondary MoveIt support repository for the [RRR_Manipulator](https://
 ![Static Badge](https://img.shields.io/badge/ROS-Noetic_Ninjemys-lightgreen)
 ![Static Badge](https://img.shields.io/badge/Python-3.8.10-red)
 ![Static Badge](https://img.shields.io/badge/Gazebo-11+-blue)
-![Static Badge](https://img.shields.io/badge/CAD-SolidWorks-yellow)
 ![Static Badge](https://img.shields.io/badge/Cloud_Gateway-Ngrok-lightblue)
 ![Static Badge](https://img.shields.io/badge/LICENSE-MIT-violet)
 
@@ -34,7 +33,7 @@ This is a secondary MoveIt support repository for the [RRR_Manipulator](https://
 
 
 ## Overview
-This repository is a MoveIt configured support package for the RRR manipulator simulation project. The project simulates a custom build 3-dof serial manipulator of RRR (Revolute-Revolute-Revolute) configuration. The simulation and motion planing is achieved using Gazebo and Moveit respectively. This project also features additional integration of Alexa voice command control and custom-made task server control for the manipulator. This project is created as a learning from course [Robotics and ROS](https://www.udemy.com/course/robotics-and-ros-learn-by-doing-manipulators/?couponCode=KEEPLEARNING).
+This repository is a MoveIt configured support package for the RRR manipulator simulation project. The project simulates a custom build 3-dof serial manipulator of RRR (Revolute-Revolute-Revolute) configuration. The simulation and motion planing is achieved using Gazebo and Moveit respectively. This project also features additional integration of Alexa voice command control and custom-made task server control for the manipulator.
 
 ### Features
 * __Gazebo Simulation__: The manipulator is simulated in gazebo using custom made controller and can be controlled using Joint State Gui as well as joint commands. The simulation can also be visualzied using Rviz.
