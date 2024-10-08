@@ -30,22 +30,22 @@ This is a secondary MoveIt support repository for the [RRR_Manipulator](https://
   * [Project Visuals](#project-visuals)
   * [Contributing](#contributing)
   * [Contact](#contact)
-  * [Licence](#licence)
+  * [License](#license)
   * [Acknowledgements](#acknowledgements)
 
 
 
 ## Overview
-This repository is a MoveIt configured support package for the RRR manipulator simulation project. The project simulates a custom build 3-dof serial manipulator of RRR (Revolute-Revolute-Revolute) configuration. The simulation and motion planing is achieved using Gazebo and Moveit respectively. This project also features additional integration of Alexa voice command control and custom-made task server control for the manipulator. This project is created as a learning from course [Robotics and ROS](https://www.udemy.com/course/robotics-and-ros-learn-by-doing-manipulators/?couponCode=KEEPLEARNING).
+This repository is a MoveIt configured support package for the RRR manipulator simulation project. The project simulates a custom build 3-dof serial manipulator of RRR (Revolute-Revolute-Revolute) configuration. The simulation and motion planing is achieved using Gazebo and Moveit respectively. This project also features additional integration of Alexa voice command control and custom-created task server control for the manipulator. 
 
 ### Features
-* __Gazebo Simulation__: The manipulator is simulated in gazebo using custom made controller and can be controlled using Joint State Gui as well as joint commands. The simulation can also be visualzied using Rviz.
+* __Gazebo Simulation__: The manipulator is simulated in gazebo using custom made controller and can be controlled using Joint State GUI as well as joint commands. The simulation can also be visualized using Rviz.
 * __MoveIt Intercative Control__: The manipulator can be controlled and moved to a specific position using the Rviz-MoveIt interactive motion planning. The simulation of the same can also be visualized in Gazebo.
-* __Task Server Commander__: A custom made task server is created using MoveIt API for custom made predefined manipulator positions and used to give target goals using the custom made string commands.
-* __Alexa Voice Command__: The manipulator can also be commanded to move to a specific pre-defined position using Alexa voice interaction and task server.
+* __Task Server Commander__: A Task server is created using MoveIt API for predefined manipulator positions and used to give target goals using the custom string commands
+* __Alexa Voice Command__: The manipulator can also be commanded to move to a specific pre-defined position using Alexa voice interaction and Task server.
   
 ## Getting Stated
-The overall project has a main repository as [RRR_Manipulator](https://github.com/VibhuSharma19/RRR_Manipulator.git) and a secondary (required) repo of MoveIt interfacing [RRR_MoveIt](https://github.com/VibhuSharma19/RRR_Moveit.git). Both the repos are required to use all the features of the project.
+The overall project has a main repository as [RRR_Manipulator](https://github.com/VibhuSharma19/RRR_Manipulator.git) and a secondary (required) repository of MoveIt interfacing [RRR_MoveIt](https://github.com/VibhuSharma19/RRR_Moveit.git). Both the repositories are required to use all the features of the project.
 
 ### Prerequists
 * __Ubuntu__: 20.04 (_Focal Fossa_)
@@ -80,7 +80,7 @@ $ catkin_make
 
 ### Individual Joint Control
 
-1. Manipulator joint controll using Rviz and Joint State Publisher GUI:
+1. Manipulator simulation using Rviz and Joint State GUI:
 ```sh
 $ roslaunch rrr_arm display.launch
 ```
@@ -134,6 +134,11 @@ Paste the _Forwarding_ link of Ngrok to __Alexa Developer Console__ and command 
 
 ## Project Visuals
 
+* Manipulator in Gazebo World
+<p align="center">
+<img src="https://github.com/VibhuSharma19/RRR_Manipulator/blob/master/images/gazebo.jpg">
+</p>
+
 * Manipulator in Rviz plateform
 <p align="center">
 <img src="https://github.com/VibhuSharma19/RRR_Manipulator/blob/master/images/display_rviz.png">
@@ -169,14 +174,13 @@ Pull requests and issues are always welcome. You can add additional new features
 5. Open a Pull Request
 
 ## Contact
+__*VIBHU SHARMA*__  
+_M.Tech (Gold Medalist :1st_place_medal: ) - Automation and Robotics_ <br/>
+[![Static Badge](https://img.shields.io/badge/LinkedIn-Vibhu_Sharma-blue)](www.linkedin.com/in/-vibhu-sharma) 
+[![Static Badge](https://img.shields.io/badge/Github-VibhuSharma19-white)](https://github.com/VibhuSharma19)
 
-Vibhu Sharma  
-M.Tech (Gold Medalist :1st_place_medal: ) - Automation and Robotics  
-[LinkedIn](www.linkedin.com/in/-vibhu-sharma) 
-[Github](https://github.com/VibhuSharma19)
-
-## Licence
-[MIT LICENCE](https://github.com/VibhuSharma19/RRR_Manipulator/blob/master/LICENSE)
+## License
+[MIT LICENSE](https://github.com/VibhuSharma19/RRR_Moveit/blob/master/LICENSE)
 
 ## Acknowledgements
 
