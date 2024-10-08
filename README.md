@@ -7,7 +7,6 @@ This is a secondary MoveIt support repository for the [RRR_Manipulator](https://
 ![Static Badge](https://img.shields.io/badge/ROS-Noetic_Ninjemys-lightgreen)
 ![Static Badge](https://img.shields.io/badge/Python-3.8.10-red)
 ![Static Badge](https://img.shields.io/badge/Gazebo-11+-blue)
-![Static Badge](https://img.shields.io/badge/CAD-SolidWorks-yellow)
 ![Static Badge](https://img.shields.io/badge/Cloud_Gateway-Ngrok-lightblue)
 ![Static Badge](https://img.shields.io/badge/LICENSE-MIT-violet)
 
@@ -17,8 +16,6 @@ This is a secondary MoveIt support repository for the [RRR_Manipulator](https://
 </div>
 
 ## Table of Content
-* [RRR MoveIt](#rrr-moveit)
-  * [Table of Content](#table-of-content)
   * [Overview](#overview)
     * [Features](#features)
   * [Getting Stated](#getting-stated)
